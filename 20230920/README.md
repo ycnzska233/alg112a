@@ -21,6 +21,8 @@ truthtable.py
 ### HW
 1. [truthtable.py](truthtable.py)
 2. [permutations.py](permutations.py)
+3. [permutations_import.py](permutations_import.py)
+4. [exercise:permutations_continue](permutations_continue.py)
 
 ### 參考資料
 https://github.com/ccc112a/py2cs/blob/master/02-演算法/02-方法/02a-列舉法/01-truthTable/truthTable.py
