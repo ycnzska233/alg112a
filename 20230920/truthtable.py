@@ -1,8 +1,10 @@
 #20230920 HW
 
 def main():
-    n = int(input())
-    
+
+    for i in range(3):
+        truthTable(i+2)
+
     return
 
 def truthTable(n:int):
@@ -12,7 +14,6 @@ def truthTable(n:int):
 def value(n:int, table:list):
 
     lenth = len(table)
-
     if lenth == n:
         print(table)
         return
@@ -21,7 +22,7 @@ def value(n:int, table:list):
         table.append(i)
         value(n, table)
         table.pop()
-    
+
     return
 
 main()
